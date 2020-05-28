@@ -1,6 +1,6 @@
 from skylee.sample_config import Config
 
-class Config(object):
+class Development(Config):
     API_KEY = "1162349467:AAFEUWPUHTfZjVv_FXuJIGWayZ21UBrqZhg"
     OWNER_ID = "680815375"
     OWNER_USERNAME = "prgofficial"
