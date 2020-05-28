@@ -24,24 +24,22 @@ from skylee.modules.helper_funcs.alternate import typing_action
 PM_START_TEXT = f"""
 Hey there! my name is *{dispatcher.bot.first_name}*. If you have any questions on how to use me, Click Help button.
 
-I'm a group management bot built in python3, using the \
-python-telegram-bot library, and am fully opensource - you can find what makes me tick \
-[here](www.github.com/starry69/skyleebot).
+I'm a Group Manager bot maintained by  [this person](tg://user?id={}).
 
-Wanna Add me to your Group? Just click the button below!
+This Bot is exclusively made for @moviesonlydiscussion ; мσνιєѕσиℓу™ Team 
+
+For more Details, contact> @prgofficial ...
+
+**SO MANY MOVIES, SO LITTLE TIME!**
+
 """
 
-buttons = [[
-InlineKeyboardButton(text="Add to Group 👥", url="t.me/skylee_bot?startgroup=true"),
-InlineKeyboardButton(text="Updates 📢", url="https://t.me/skyleeupdates")
-                  ]]
-
-buttons += [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
+buttons = [[InlineKeyboardButton(text="Help & Commands ❔", callback_data="help_back")]]
 
 
 HELP_STRINGS = f"""
 Hello there! My name is *{dispatcher.bot.first_name}*.
-I'm a modular group management bot with a few fun extras! Have a look at the following for an idea of some of \
+I'm a modular group management bot for anti flooding! Have a look at the following for an idea of some of \
 the things I can help you with.
 
 *Main* commands available:
